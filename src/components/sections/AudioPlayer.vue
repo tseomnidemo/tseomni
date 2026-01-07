@@ -77,7 +77,7 @@
         <el-container class="video-container">
           <div class="audio-title">Visual ENR</div>
           <video controls muted preload playsinline>
-            <source src="/output_audio/baseline_compare_case1/visual_enr/visual_cue.mp4" type="video/mp4">
+            <source src="/output_audio/baseline_compare_case1/visual_enr/visual_cue_h264.mp4" type="video/mp4">
           </video>
         </el-container>
       </el-col>
