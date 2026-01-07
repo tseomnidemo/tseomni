@@ -17,7 +17,7 @@ import Latex from './sections/Latex.vue'
 import Model3D from './sections/Model3D.vue'
 import GaussianSplats3D from './sections/GaussianSplats3D.vue'
 import AudioPlayer from './sections/AudioPlayer.vue'
-import TargetSpeakerDemo from './sections/TargetSpeakerDemo.vue'
+// import TargetSpeakerDemo from './sections/TargetSpeakerDemo.vue'
 
 export default {
   components: {
