@@ -174,7 +174,7 @@ const selectedCase = ref('case1') // 只需要这一行
         <el-container class="video-container">
           <div class="audio-title">GT</div>
           <audio controls>
-            <source src="/output_audio/baseline_compare_case2/mix/test_test_UmvOgW6iV2s_00007_0_test_FxtSMZKMdes_00009_-8.579278836042262_4.288.wav" type="audio/wav">
+            <source src="/output_audio/baseline_compare_case2/GT/test_test_UmvOgW6iV2s_00007_0_test_FxtSMZKMdes_00009_-8.579278836042262_4.288.wav" type="audio/wav">
           </audio>
         </el-container>
       </el-col>
@@ -254,6 +254,9 @@ const selectedCase = ref('case1') // 只需要这一行
           </audio>
         </el-container>
       </el-col>
+ </el-row>
+          <!-- 第4行：visual_enr.mp4 + 6个模型 -->
+    <el-row justify="center" class="audio-row">
 
       <el-col :span="4">
         <el-container class="video-container">
@@ -263,6 +266,7 @@ const selectedCase = ref('case1') // 只需要这一行
           </audio>
         </el-container>
       </el-col>
+      
 
       <el-col :span="4">
         <el-container class="video-container">
