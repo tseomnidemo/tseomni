@@ -42,16 +42,15 @@
         </div>
       </el-col>
       
-      <!-- Visual Cue -->
+      
       <el-col :xs="4" :sm="3" :md="2" :lg="2" :xl="1">
         <div class="audio-item">
           <h3 class="audio-title">Visual Cue</h3>
-          <video controls width="100" height="60">
+          <video controls width="200" height="120">
             <source src="/output_audio/baseline_compare_case1/visual_enr/visual_cue.mp4" type="video/mp4">
           </video>
         </div>
       </el-col>
-      
       <!-- Model 1-8 -->
       <el-col v-for="i in 8" :key="i" :xs="4" :sm="3" :md="2" :lg="2" :xl="1">
         <div class="audio-item">
