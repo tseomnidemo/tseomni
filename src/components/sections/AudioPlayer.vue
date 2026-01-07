@@ -56,7 +56,7 @@
         <el-container class="video-container">
           <div class="audio-title">LauraTSE</div>
           <audio controls>
-            <source src="/output_audio/baseline_compare_case1/LLaSE-G1/test_test_HiwJ0hNl1Fw_00002_0_test_VSLurJfOSiA_00001_7.835460015641594_4.096.wav" type="audio/wav">
+            <source src="/output_audio/baseline_compare_case1/LauraTSE/test_test_HiwJ0hNl1Fw_00002_0_test_VSLurJfOSiA_00001_7.835460015641594_4.096.wav" type="audio/wav">
           </audio>
         </el-container>
       </el-col>
