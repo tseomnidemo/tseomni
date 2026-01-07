@@ -351,7 +351,7 @@ const selectedCase = ref('case1') // 只需要这一行
         <el-container class="video-container">
           <div class="audio-title">USEV</div>
           <audio controls>
-            <source src="/output_audio/vocc/USEV/test_test_qYUmI5kGsYk_00001_0_test_GMynksvCcUI_00009_-8.634935336137668_4.288.wav" type="audio/wav">
+            <source src="/output_audio/vocc/USEV/test_test_qYUmI5kGsYk_00001_0_test_GMynksvCcUI_00009_-8.634935336137668_4.288_mask1_start53_len42.wav" type="audio/wav">
           </audio>
         </el-container>
       </el-col>
@@ -359,7 +359,7 @@ const selectedCase = ref('case1') // 只需要这一行
         <el-container class="video-container">
           <div class="audio-title">TSE-Omni-V</div>
           <audio controls>
-            <source src="/output_audio/vocc/TSE-Omni-V/test_test_qYUmI5kGsYk_00001_0_test_GMynksvCcUI_00009_-8.634935336137668_4.288.wav" type="audio/wav">
+            <source src="/output_audio/vocc/TSE-Omni-V/test_test_qYUmI5kGsYk_00001_0_test_GMynksvCcUI_00009_-8.634935336137668_4.288_mask1_start53_len42.wav" type="audio/wav">
           </audio>
         </el-container>
       </el-col>
