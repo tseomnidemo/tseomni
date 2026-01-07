@@ -1,7 +1,21 @@
+<script setup>
+import { ref } from 'vue'
+
+const selectedCase = ref('case1') // 只需要添加这一行
+</script>
+
 <template>
   <div>
     <el-row justify="center">
       <h1 class="section-title">Audio Samples Comparison</h1>
+    </el-row>
+
+    <!-- 只需要添加这个选择器 -->
+    <el-row justify="center" class="case-selector">
+      <el-radio-group v-model="selectedCase">
+        <el-radio-button label="Case1">Case 1</el-radio-button>
+        <el-radio-button label="Case2">Case 2</el-radio-button>
+      </el-radio-group>
     </el-row>
 
     <!-- 第一行：mix.wav, gt.wav -->
