@@ -328,6 +328,11 @@ const selectedCase = ref('case1') // 只需要这一行
           </audio>
         </el-container>
       </el-col>
+
+      </el-row>
+
+    <!-- Sample 2 -->
+    <el-row justify="center" class="audio-row">
       
       <el-col :span="4">
         <el-container class="video-container">
@@ -384,6 +389,10 @@ const selectedCase = ref('case1') // 只需要这一行
           </audio>
         </el-container>
       </el-col>
+         </el-row>
+
+    <!-- Sample 2 -->
+    <el-row justify="center" class="audio-row">
       <el-col :span="4">
         <el-container class="video-container">
           <div class="audio-title">Visual Cue</div>
