@@ -189,7 +189,9 @@ audio {
 video {
   aspect-ratio: 16/9;
   /* width: 200px; */
-  width: 80%;
+  /* width: 80%; */
+  width: 320px;
+  height: 320px;
   border-radius: 6px;
   background: #000;
   object-fit: cover;
