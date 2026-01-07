@@ -127,6 +127,10 @@ const selectedCase = ref('case1') // 只需要这一行
         </el-container>
       </el-col>
 
+    </el-row>
+          <!-- 第4行：visual_enr.mp4 + 6个模型 -->
+    <el-row justify="center" class="audio-row">
+
       <el-col :span="4">
         <el-container class="video-container">
           <div class="audio-title">AV-DIFFUSE</div>
@@ -254,9 +258,7 @@ const selectedCase = ref('case1') // 只需要这一行
           </audio>
         </el-container>
       </el-col>
- </el-row>
-          <!-- 第4行：visual_enr.mp4 + 6个模型 -->
-    <el-row justify="center" class="audio-row">
+ 
 
       <el-col :span="4">
         <el-container class="video-container">
@@ -266,8 +268,11 @@ const selectedCase = ref('case1') // 只需要这一行
           </audio>
         </el-container>
       </el-col>
-      
 
+       </el-row>
+          <!-- 第4行：visual_enr.mp4 + 6个模型 -->
+    <el-row justify="center" class="audio-row">
+      
       <el-col :span="4">
         <el-container class="video-container">
           <div class="audio-title">AV-DIFFUSE</div>
