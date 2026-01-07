@@ -301,6 +301,240 @@ const selectedCase = ref('case1') // 只需要这一行
       </el-col>
     </el-row>
     </div>
+
+
+
+     <!-- 新的Visual Corruption Section -->
+    <el-divider />
+    <el-row justify="center">
+      <h1 class="section-title">Visual Corruption</h1>
+    </el-row>
+
+    <!-- Sample 1 -->
+    <el-row justify="center" class="audio-row">
+      <h2 class="row-title">Sample 1</h2>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">Mixture</div>
+          <audio controls>
+            <source src="/output_audio/visual_corruption/sample1/mix.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">GT</div>
+          <audio controls>
+            <source src="/output_audio/visual_corruption/sample1/gt.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">Visual Cue</div>
+          <video controls muted preload playsinline>
+            <source src="/output_audio/visual_corruption/sample1/visual_cue.mp4" type="video/mp4">
+          </video>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">USEV</div>
+          <audio controls>
+            <source src="/output_audio/visual_corruption/sample1/usev.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">TSE-Omni-V</div>
+          <audio controls>
+            <source src="/output_audio/visual_corruption/sample1/tse-omni-v.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+    </el-row>
+
+    <!-- Sample 2 -->
+    <el-row justify="center" class="audio-row">
+      <h2 class="row-title">Sample 2</h2>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">Mixture</div>
+          <audio controls>
+            <source src="/output_audio/visual_corruption/sample2/mix.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">GT</div>
+          <audio controls>
+            <source src="/output_audio/visual_corruption/sample2/gt.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">Visual Cue</div>
+          <video controls muted preload playsinline>
+            <source src="/output_audio/visual_corruption/sample2/visual_cue.mp4" type="video/mp4">
+          </video>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">USEV</div>
+          <audio controls>
+            <source src="/output_audio/visual_corruption/sample2/usev.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">ImageNet</div>
+          <audio controls>
+            <source src="/output_audio/visual_corruption/sample2/imagenet.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">TSE-Omni-V</div>
+          <audio controls>
+            <source src="/output_audio/visual_corruption/sample2/tse-omni-v.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+    </el-row>
+
+
+
+
+    ##############################################
+     <!-- 新的Visual Corruption Section -->
+    <el-divider />
+    <el-row justify="center">
+      <h1 class="section-title">Visual Corruption</h1>
+    </el-row>
+
+    <!-- Sample 1 -->
+    <el-row justify="center" class="audio-row">
+      <h2 class="row-title">Sample 1</h2>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">Mixture</div>
+          <audio controls>
+            <source src="/output_audio/vocc/mix/test_test_qYUmI5kGsYk_00001_0_test_GMynksvCcUI_00009_-8.634935336137668_4.288.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">GT</div>
+          <audio controls>
+            <source src="/output_audio/vocc/GT/test_test_qYUmI5kGsYk_00001_0_test_GMynksvCcUI_00009_-8.634935336137668_4.288.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">Visual Cue</div>
+          <video controls muted preload playsinline>
+            <source src="/output_audio/vocc/visual_enr/visual_cue_h264.mp4" type="video/mp4">
+          </video>
+        </el-container>
+      </el-col>
+
+        <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">Visual Cue(Intact)</div>
+          <video controls muted preload playsinline>
+            <source src="/output_audio/vocc/visual_enr/visual_cue_clean_h264.mp4" type="video/mp4">
+          </video>
+        </el-container>
+      </el-col>
+      
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">USEV</div>
+          <audio controls>
+            <source src="/output_audio/vocc/USEV/test_test_qYUmI5kGsYk_00001_0_test_GMynksvCcUI_00009_-8.634935336137668_4.288.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">TSE-Omni-V</div>
+          <audio controls>
+            <source src="/output_audio/vocc/TSE-Omni-V/test_test_qYUmI5kGsYk_00001_0_test_GMynksvCcUI_00009_-8.634935336137668_4.288.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+    </el-row>
+
+    <!-- Sample 2 -->
+    <el-row justify="center" class="audio-row">
+      <h2 class="row-title">Sample 2</h2>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">Mixture</div>
+          <audio controls>
+            <source src="/output_audio/vonly1s/mix/test_test_TVtgb153S6I_00001_0_test_V1yW5IsnSjo_00001_-0.52783909452579_6.08.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">GT</div>
+          <audio controls>
+            <source src="/output_audio/vonly1s/GT/test_test_TVtgb153S6I_00001_0_test_V1yW5IsnSjo_00001_-0.52783909452579_6.08.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">Visual Cue</div>
+          <video controls muted preload playsinline>
+            <source src="/output_audio/vonly1s/visual_enr/visual_cue_h264.mp4" type="video/mp4">
+          </video>
+        </el-container>
+      </el-col>
+           <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">Visual Cue(Intact)</div>
+          <video controls muted preload playsinline>
+            <source src="/output_audio/vonly1s/visual_enr/visual_cue_clean_h264.mp4" type="video/mp4">
+          </video>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">USEV</div>
+          <audio controls>
+            <source src="/output_audio/vonly1s/USEV/test_test_TVtgb153S6I_00001_0_test_V1yW5IsnSjo_00001_-0.52783909452579_6.08_mask2_start75_len4.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">ImageNet</div>
+          <audio controls>
+            <source src="/output_audio/vonly1s/ImagineNET/test_test_TVtgb153S6I_00001_0_test_V1yW5IsnSjo_00001_-0.52783909452579_6.08_mask2_start75_len4.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">TSE-Omni-V</div>
+          <audio controls>
+            <source src="/output_audio/vonly1s/TSE-Omni-V/test_test_TVtgb153S6I_00001_0_test_V1yW5IsnSjo_00001_-0.52783909452579_6.08_mask0_start0_len95_test_ds_rate25.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+    </el-row>
+    ##############################################
   </div>
 </template>
 
