@@ -18,7 +18,6 @@ const selectedCase = ref('case1') // 只需要这一行
       </el-radio-group>
     </el-row>
     
-    </div>
 
     <!-- Case 1 的内容 -->
     <div v-if="selectedCase === 'case1'">
@@ -154,6 +153,8 @@ const selectedCase = ref('case1') // 只需要这一行
           </audio>
         </el-container>
       </el-col>
+
+    </div>
 
          <!-- Case 2 的内容 -->
     <div v-if="selectedCase === 'case2'">
