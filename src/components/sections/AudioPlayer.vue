@@ -94,9 +94,9 @@
 
       <el-col :span="4">
         <div class="audio-item">
-          <h3 class="audio-title">AV-Mamaba</h3>
+          <h3 class="audio-title">AV-Mamba</h3>
           <audio controls>
-            <source src="/output_audio/baseline_compare_case1/AV-Mamaba/test_test_HiwJ0hNl1Fw_00002_0_test_VSLurJfOSiA_00001_7.835460015641594_4.096.wav" type="audio/wav">
+            <source src="/output_audio/baseline_compare_case1/AV-Mamba/test_test_HiwJ0hNl1Fw_00002_0_test_VSLurJfOSiA_00001_7.835460015641594_4.096.wav" type="audio/wav">
           </audio>
         </div>
       </el-col>
