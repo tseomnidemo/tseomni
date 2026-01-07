@@ -290,12 +290,8 @@ const selectedCase = ref('case1') // 只需要这一行
           </audio>
         </el-container>
       </el-col>
-
-
-
-
-      
     </el-row>
+    </div>
   </div>
 </template>
 
