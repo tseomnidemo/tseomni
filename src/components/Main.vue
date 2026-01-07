@@ -16,6 +16,8 @@ import Comment from './sections/Comment.vue'
 import Latex from './sections/Latex.vue'
 import Model3D from './sections/Model3D.vue'
 import GaussianSplats3D from './sections/GaussianSplats3D.vue'
+import AudioPlayer from './sections/AudioPlayer.vue'
+import TargetSpeakerDemo from './sections/TargetSpeakerDemo.vue'
 
 export default {
   components: {
@@ -35,27 +37,19 @@ export default {
     Comment,
     Latex,
     Model3D,
-    GaussianSplats3D
+    GaussianSplats3D,
+    AudioPlayer,
+    TargetSpeakerDemo
   }
 }
+  
 </script>
 
 <template>
   <Title/>
-  <Carousel/>
-  <Video/>
   <Abstract/>
   <Markdown/>
-  <Latex/>
-  <Table/>
-  <Collapse/>
-  <Echart/>
-  <Model3D/>
-  <GaussianSplats3D/>
-  <SeletionForComparison/>
-  <ImageSliderInner/>
-  <ImageSlider/>
-  <ImageSelector/>
+  <AudioPlayer/>
+  <TargetSpeakerDemo/>
   <BibTeX/>
-  <Comment/>
 </template>
