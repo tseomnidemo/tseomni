@@ -24,7 +24,7 @@ const selectedCase = ref('case1') // 只需要这一行
 
     <!-- 第一行：mix.wav, gt.wav -->
     <el-row justify="center" class="audio-row">
-      <h2 class="row-title">Reference Samples</h2>
+      <h2 class="row-title"> Sample 1 </h2>
       <el-col :span="8">
         <el-container class="video-container">
           <div class="audio-title">Mixture</div>
@@ -45,10 +45,10 @@ const selectedCase = ref('case1') // 只需要这一行
 
     <!-- 第二行：audio_enr.wav + 4个模型 -->
     <el-row justify="center" class="audio-row">
-      <h2 class="row-title">Audio Enhancement Models</h2>
+      <h2 class="row-title">Audio Cue Based Models</h2>
       <el-col :span="4">
         <el-container class="video-container">
-          <div class="audio-title">Audio ENR</div>
+          <div class="audio-title">Audio Cue</div>
           <audio controls>
             <source src="/output_audio/baseline_compare_case1/audio_enr/00003.wav" type="audio/wav">
           </audio>
@@ -90,10 +90,10 @@ const selectedCase = ref('case1') // 只需要这一行
 
     <!-- 第三行：visual_enr.mp4 + 6个模型 -->
     <el-row justify="center" class="audio-row">
-      <h2 class="row-title">Visual Enhancement Models</h2>
+      <h2 class="row-title">Visual Cue Based Models</h2>
       <el-col :span="3">
         <el-container class="video-container">
-          <div class="audio-title">Visual ENR</div>
+          <div class="audio-title">Visual Cue</div>
           <video controls muted preload playsinline>
             <source src="/output_audio/baseline_compare_case1/visual_enr/visual_cue_h264.mp4" type="video/mp4">
           </video>
@@ -165,7 +165,7 @@ const selectedCase = ref('case1') // 只需要这一行
 
      <!-- 第一行：mix.wav, gt.wav -->
     <el-row justify="center" class="audio-row">
-      <h2 class="row-title">Reference Samples</h2>
+      <h2 class="row-title"> Sample 2 </h2>
       <el-col :span="8">
         <el-container class="video-container">
           <div class="audio-title">Mixture</div>
@@ -186,10 +186,10 @@ const selectedCase = ref('case1') // 只需要这一行
 
     <!-- 第二行：audio_enr.wav + 4个模型 -->
     <el-row justify="center" class="audio-row">
-      <h2 class="row-title">Audio Enhancement Models</h2>
+      <h2 class="row-title">Audio Cue Based Models</h2>
       <el-col :span="4">
         <el-container class="video-container">
-          <div class="audio-title">Audio ENR</div>
+          <div class="audio-title">Audio Cue</div>
           <audio controls>
             <source src="/output_audio/baseline_compare_case2/audio_enr/00001.wav" type="audio/wav">
           </audio>
@@ -231,10 +231,10 @@ const selectedCase = ref('case1') // 只需要这一行
 
     <!-- 第三行：visual_enr.mp4 + 6个模型 -->
     <el-row justify="center" class="audio-row">
-      <h2 class="row-title">Visual Enhancement Models</h2>
+      <h2 class="row-title">Visual Cue Based Models</h2>
       <el-col :span="3">
         <el-container class="video-container">
-          <div class="audio-title">Visual ENR</div>
+          <div class="audio-title">Visual Cue</div>
           <video controls muted preload playsinline>
             <source src="/output_audio/baseline_compare_case2/visual_enr/visual_cue_h264.mp4" type="video/mp4">
           </video>
