@@ -17,7 +17,7 @@
         <div class="audio-item">
           <h3 class="audio-title">Mixture</h3>
           <audio controls>
-            <source src="/path/to/mixture1.wav" type="audio/wav">
+            <source src="ppublic/output_audio/baseline_compare_case1/mix/test_test_HiwJ0hNl1Fw_00002_0_test_VSLurJfOSiA_00001_7.835460015641594_4.096.wav" type="audio/wav">
           </audio>
         </div>
       </el-col>
@@ -27,7 +27,7 @@
         <div class="audio-item">
           <h3 class="audio-title">GT</h3>
           <audio controls>
-            <source src="/path/to/gt1.wav" type="audio/wav">
+            <source src="public/output_audio/baseline_compare_case1/GT/test_test_HiwJ0hNl1Fw_00002_0_test_VSLurJfOSiA_00001_7.835460015641594_4.096.wav" type="audio/wav">
           </audio>
         </div>
       </el-col>
@@ -37,7 +37,7 @@
         <div class="audio-item">
           <h3 class="audio-title">Audio Cue</h3>
           <audio controls>
-            <source src="/path/to/audio_cue1.wav" type="audio/wav">
+            <source src="public/output_audio/baseline_compare_case1/audio_enr/00003.wav" type="audio/wav">
           </audio>
         </div>
       </el-col>
@@ -47,7 +47,7 @@
         <div class="audio-item">
           <h3 class="audio-title">Visual Cue</h3>
           <video controls width="100" height="60">
-            <source src="/path/to/visual_cue1.mp4" type="video/mp4">
+            <source src="public/output_audio/baseline_compare_case1/visual_enr/visual_cue.mp4" type="video/mp4">
           </video>
         </div>
       </el-col>
