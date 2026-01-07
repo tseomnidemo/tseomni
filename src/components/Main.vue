@@ -38,8 +38,8 @@ export default {
     Latex,
     Model3D,
     GaussianSplats3D,
-    AudioPlayer,
-    TargetSpeakerDemo
+    AudioPlayer
+    // TargetSpeakerDemo
   }
 }
   
@@ -50,6 +50,5 @@ export default {
   <Abstract/>
   <Markdown/>
   <AudioPlayer/>
-  <TargetSpeakerDemo/>
   <BibTeX/>
 </template>
