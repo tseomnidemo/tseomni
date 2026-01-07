@@ -167,5 +167,5 @@ video {
     width: 80px;
     height: 50px;
   }
-}】
+}
 </style>
