@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const selectedCase = ref('case1') // 只需要添加这一行
+const selectedCase = ref('case1') // 只需要这一行
 </script>
 
 <template>
@@ -10,13 +10,16 @@ const selectedCase = ref('case1') // 只需要添加这一行
       <h1 class="section-title">Audio Samples Comparison</h1>
     </el-row>
 
-    <!-- 只需要添加这个选择器 -->
+    <!-- Case选择器 -->
     <el-row justify="center" class="case-selector">
       <el-radio-group v-model="selectedCase">
-        <el-radio-button label="Case1">Case 1</el-radio-button>
-        <el-radio-button label="Case2">Case 2</el-radio-button>
+        <el-radio-button label="case1">Case 1</el-radio-button>
+        <el-radio-button label="case2">Case 2</el-radio-button>
       </el-radio-group>
     </el-row>
+
+    <!-- Case 1 的内容 -->
+    <div v-if="selectedCase === 'case1'">
 
     <!-- 第一行：mix.wav, gt.wav -->
     <el-row justify="center" class="audio-row">
@@ -149,6 +152,146 @@ const selectedCase = ref('case1') // 只需要添加这一行
           </audio>
         </el-container>
       </el-col>
+
+         <!-- Case 2 的内容 -->
+    <div v-if="selectedCase === 'case2'">
+
+     <!-- 第一行：mix.wav, gt.wav -->
+    <el-row justify="center" class="audio-row">
+      <h2 class="row-title">Reference Samples</h2>
+      <el-col :span="8">
+        <el-container class="video-container">
+          <div class="audio-title">Mixture</div>
+          <audio controls>
+            <source src="/output_audio/baseline_compare_case2/mix/test_test_UmvOgW6iV2s_00007_0_test_FxtSMZKMdes_00009_-8.579278836042262_4.288.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="8">
+        <el-container class="video-container">
+          <div class="audio-title">GT</div>
+          <audio controls>
+            <source src="/output_audio/baseline_compare_case2/mix/test_test_UmvOgW6iV2s_00007_0_test_FxtSMZKMdes_00009_-8.579278836042262_4.288.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+    </el-row>
+
+    <!-- 第二行：audio_enr.wav + 4个模型 -->
+    <el-row justify="center" class="audio-row">
+      <h2 class="row-title">Audio Enhancement Models</h2>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">Audio ENR</div>
+          <audio controls>
+            <source src="/output_audio/baseline_compare_case2/audio_enr/00001.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">NEMO</div>
+          <audio controls>
+            <source src="/output_audio/baseline_compare_case2/NEMO/test_test_UmvOgW6iV2s_00007_0_test_FxtSMZKMdes_00009_-8.579278836042262_4.288.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">LlamaSE-G1</div>
+          <audio controls>
+            <source src="/output_audio/baseline_compare_case2/LLaSE-G1/test_test_UmvOgW6iV2s_00007_0_test_FxtSMZKMdes_00009_-8.579278836042262_4.288.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">LauraTSE</div>
+          <audio controls>
+            <source src="/output_audio/baseline_compare_case2/LauraTSE/test_test_UmvOgW6iV2s_00007_0_test_FxtSMZKMdes_00009_-8.579278836042262_4.288.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">TSE-Omni-A</div>
+          <audio controls>
+            <source src="/output_audio/baseline_compare_case2/TSE-Omni-A/test_test_UmvOgW6iV2s_00007_0_test_FxtSMZKMdes_00009_-8.579278836042262_4.288.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+    </el-row>
+
+    <!-- 第三行：visual_enr.mp4 + 6个模型 -->
+    <el-row justify="center" class="audio-row">
+      <h2 class="row-title">Visual Enhancement Models</h2>
+      <el-col :span="3">
+        <el-container class="video-container">
+          <div class="audio-title">Visual ENR</div>
+          <video controls muted preload playsinline>
+            <source src="/output_audio/baseline_compare_case2/visual_enr/visual_cue_h264.mp4" type="video/mp4">
+          </video>
+        </el-container>
+      </el-col>
+
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">USEV</div>
+          <audio controls>
+            <source src="/output_audio/baseline_compare_case2/USEV/test_test_UmvOgW6iV2s_00007_0_test_FxtSMZKMdes_00009_-8.579278836042262_4.288.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">AV-Mamba</div>
+          <audio controls>
+            <source src="/output_audio/baseline_compare_case2/AV-Mamba/test_test_UmvOgW6iV2s_00007_0_test_FxtSMZKMdes_00009_-8.579278836042262_4.288.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">AV-Sepformer</div>
+          <audio controls>
+            <source src="/output_audio/baseline_compare_case2/AV-Sepformer/test_test_UmvOgW6iV2s_00007_0_test_FxtSMZKMdes_00009_-8.579278836042262_4.288.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">AV-DIFFUSE</div>
+          <audio controls>
+            <source src="/output_audio/baseline_compare_case2/AV-DIFFUSE/test_test_UmvOgW6iV2s_00007_0_test_FxtSMZKMdes_00009_-8.579278836042262_4.288.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">FLOWAVSE</div>
+          <audio controls>
+            <source src="/output_audio/baseline_compare_case2/FLOWAVSE/test_test_UmvOgW6iV2s_00007_0_test_FxtSMZKMdes_00009_-8.579278836042262_4.288.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">TSE-Omni-V</div>
+          <audio controls>
+            <source src="/output_audio/baseline_compare_case2/TSE-Omni-V/test_test_UmvOgW6iV2s_00007_0_test_FxtSMZKMdes_00009_-8.579278836042262_4.288.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+
+
+
+
+      
     </el-row>
   </div>
 </template>
@@ -204,8 +347,8 @@ video {
   aspect-ratio: 16/9;
   /* width: 200px; */
   /* width: 80%; */
-  width: 320px;
-  height: 320px;
+  width: 224px;
+  height: 224px;
   border-radius: 6px;
   background: #000;
   object-fit: cover;
