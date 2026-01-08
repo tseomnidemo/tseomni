@@ -467,7 +467,7 @@ const selectedCase = ref('case1') // 只需要这一行
 
     <!-- Sample 2 -->
  
-
+  <el-row justify="center" class="audio-row">
       <el-col :span="4">
         <el-container class="video-container">
           <div class="audio-title">Audio Cue</div>
@@ -494,8 +494,10 @@ const selectedCase = ref('case1') // 只需要这一行
           </audio>
         </el-container>
       </el-col>
+      </el-row justify="center" class="audio-row">
 
-        <el-row justify="center" class="audio-row">
+      
+    <el-row justify="center" class="audio-row">
       <el-col :span="4">
         <el-container class="video-container">
           <div class="audio-title">Visual Cue</div>
@@ -546,7 +548,7 @@ const selectedCase = ref('case1') // 只需要这一行
         </el-container>
       </el-col>
 
-         <el-col :span="4">
+      <el-col :span="4">
         <el-container class="video-container">
           <div class="audio-title"> Visual Cue </div>
           <audio controls>
@@ -570,7 +572,6 @@ const selectedCase = ref('case1') // 只需要这一行
  
     <el-row justify="center" class="audio-row">
       <h2 class="row-title">Sample 2</h2>
-         
       <el-col :span="4">
         <el-container class="video-container">
           <div class="audio-title">Mixture</div>
@@ -590,7 +591,7 @@ const selectedCase = ref('case1') // 只需要这一行
       </el-col>
 
       
-         <el-col :span="4">
+      <el-col :span="4">
         <el-container class="video-container">
           <div class="audio-title"> Visual Cue </div>
           <audio controls>
@@ -599,7 +600,7 @@ const selectedCase = ref('case1') // 只需要这一行
         </el-container>
       </el-col>
       
-         <el-col :span="4">
+      <el-col :span="4">
         <el-container class="video-container">
           <div class="audio-title"> TSE-Omni-V </div>
           <audio controls>
@@ -607,7 +608,7 @@ const selectedCase = ref('case1') // 只需要这一行
           </audio>
         </el-container>
       </el-col>
-
+      </el-row>
 
 
       <el-row justify="center" class="audio-row">
