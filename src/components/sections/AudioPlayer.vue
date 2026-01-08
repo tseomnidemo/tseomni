@@ -476,9 +476,9 @@ const selectedCase = ref('case1') // 只需要这一行
         <el-container class="video-container">
           <div class="audio-title">LauraTSE</div>
           <audio controls>
-            <source src="/output_audio/streaming/LauraTSE/test_test_sxnlvwprfSc_all_concat_0_test_1bnzVjOJ6NM_all_concat_7.82_10.69.wav" type="audio/wav">
+            <source src="/output_audio/streaming/LaruaTSE/test_test_sxnlvwprfSc_all_concat_0_test_1bnzVjOJ6NM_all_concat_7.82_10.69.wav" type="audio/wav">
           </audio>
-        </el-container>
+        </el-container> 
       </el-col>
 
       <el-col :span="4">
