@@ -6,6 +6,7 @@ const selectedCase = ref('case1') // 只需要这一行
 
 <template>
   <div>
+  <el-divider />
     <el-row justify="center">
       <h1 class="section-title">Baseline Comparison</h1>
     </el-row>
