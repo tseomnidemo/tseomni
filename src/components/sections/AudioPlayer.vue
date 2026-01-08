@@ -545,7 +545,7 @@ const selectedCase = ref('case1') // 只需要这一行
         <el-container class="video-container">
           <div class="audio-title"> Visual Cue </div>
           <audio controls>
-            <source src= "/output_audio/switch/visual_enr/test_test_UAj1hsXp18c_00022_0_test_eZj5n8ScTkI_00005_-2.6283_test_mgcjr1yz7ow_00006_6.4424_3.776_3.09_visual_cue_h264.mp4" type="audio/wav">
+            <source src= "/output_audio/switch/visual_enr/test_test_UAj1hsXp18c_00022_0_test_eZj5n8ScTkI_00005_-2.6283_test_mgcjr1yz7ow_00006_6.4424_3.776_3.09_visual_cue_h264.mp4" type="video/mp4">
           </audio>
         </el-container>
       </el-col>
@@ -588,7 +588,7 @@ const selectedCase = ref('case1') // 只需要这一行
         <el-container class="video-container">
           <div class="audio-title"> Visual Cue </div>
           <audio controls>
-            <source src= "/output_audio/switch/visual_enr/test_test_Us70DN2XSfM_00003_0_test_7OMLSs8t1ng_00010_8.7783_test_dYNc3P4jSt4_00006_7.3216_3.136_3.4_visual_cue_h264.mp4" type="audio/wav">
+            <source src= "/output_audio/switch/visual_enr/test_test_Us70DN2XSfM_00003_0_test_7OMLSs8t1ng_00010_8.7783_test_dYNc3P4jSt4_00006_7.3216_3.136_3.4_visual_cue_h264.mp4" type="video/mp4">
           </audio>
         </el-container>
       </el-col>
@@ -630,7 +630,7 @@ const selectedCase = ref('case1') // 只需要这一行
         <el-container class="video-container">
           <div class="audio-title"> Visual Cue </div>
           <audio controls>
-            <source src= "/output_audio/switch/visual_enr/test_test_psN1DORYYV0_00020_0_test_ZJNESMhIxQ0_00013_4.5693_test_JSSc7hYKstI_00015_5.3053_3.648_3.44_visual_cue_h264.mp4" type="audio/wav">
+            <source src= "/output_audio/switch/visual_enr/test_test_psN1DORYYV0_00020_0_test_ZJNESMhIxQ0_00013_4.5693_test_JSSc7hYKstI_00015_5.3053_3.648_3.44_visual_cue_h264.mp4" type="video/mp4">
           </audio>
         </el-container>
       </el-col>
