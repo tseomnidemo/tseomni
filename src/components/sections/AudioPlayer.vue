@@ -438,7 +438,7 @@ const selectedCase = ref('case1') // 只需要这一行
 
          ##############################################
      <!-- 新的 Streaming Inference -->
-    <el-divider />
+
     <el-row justify="center">
       <h1 class="section-title">Streaming Inference</h1>
     </el-row>
