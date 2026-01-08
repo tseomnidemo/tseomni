@@ -462,6 +462,35 @@ const selectedCase = ref('case1') // 只需要这一行
       </el-col>
     </el-row>
 
+   <el-row justify="center" class="audio-row">
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">Audio Cue</div>
+          <video controls muted preload playsinline>
+            <source src="/output_audio/streaming/audio_enr/test_test_sxnlvwprfSc_streaming_enr.wav" type="video/mp4">
+          </video>
+        </el-container>
+      </el-col>
+
+       <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">LauraTSE</div>
+          <audio controls>
+            <source src="/output_audio/streaming/LauraTSE/test_test_sxnlvwprfSc_all_concat_0_test_1bnzVjOJ6NM_all_concat_7.82_10.69.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">TSE-Omni-A</div>
+          <audio controls>
+            <source src="/output_audio/streaming/TSE-Omni-A/test_test_sxnlvwprfSc_all_concat_0_test_1bnzVjOJ6NM_all_concat_7.82_10.69.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+    </el-row >
+
 
   </div>
 </template>
