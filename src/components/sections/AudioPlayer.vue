@@ -435,10 +435,31 @@ const selectedCase = ref('case1') // 只需要这一行
       </el-col>
     </el-row>
     ##############################################
-
+    
     <!-- 新的 Streaming Inference -->
+    <el-divider />
     <el-row justify="center">
       <h1 class="section-title">Streaming Inference</h1>
+    </el-row>
+
+      <!-- Sample 1 -->
+    <el-row justify="center" class="audio-row">
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">Mixture</div>
+          <audio controls>
+            <source src="/output_audio/streaming/mix/test_test_sxnlvwprfSc_all_concat_0_test_1bnzVjOJ6NM_all_concat_7.82_10.69.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
+      <el-col :span="4">
+        <el-container class="video-container">
+          <div class="audio-title">GT</div>
+          <audio controls>
+            <source src="/output_audio/streaming/GT/test_test_sxnlvwprfSc_all_concat_0_test_1bnzVjOJ6NM_all_concat_7.82_10.69.wav" type="audio/wav">
+          </audio>
+        </el-container>
+      </el-col>
     </el-row>
 
 
