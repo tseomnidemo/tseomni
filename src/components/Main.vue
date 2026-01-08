@@ -50,5 +50,5 @@ export default {
   <Abstract/>
   <Markdown/>
   <AudioPlayer/>
-  <BibTeX/>
+
 </template>
