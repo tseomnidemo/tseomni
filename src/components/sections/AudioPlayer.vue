@@ -64,7 +64,7 @@ const selectedCase = ref('case1') // 只需要这一行
       </el-col>
       <el-col :span="4">
         <el-container class="video-container">
-          <div class="audio-title">LlamaSE-G1</div>
+          <div class="audio-title">LlaSE-G1</div>
           <audio controls>
             <source src="/output_audio/baseline_compare_case1/LLaSE-G1/test_test_HiwJ0hNl1Fw_00002_0_test_VSLurJfOSiA_00001_7.835460015641594_4.096.wav" type="audio/wav">
           </audio>
@@ -205,7 +205,7 @@ const selectedCase = ref('case1') // 只需要这一行
       </el-col>
       <el-col :span="4">
         <el-container class="video-container">
-          <div class="audio-title">LlamaSE-G1</div>
+          <div class="audio-title">LlaSE-G1</div>
           <audio controls>
             <source src="/output_audio/baseline_compare_case2/LLaSE-G1/test_test_UmvOgW6iV2s_00007_0_test_FxtSMZKMdes_00009_-8.579278836042262_4.288.wav" type="audio/wav">
           </audio>
@@ -302,7 +302,7 @@ const selectedCase = ref('case1') // 只需要这一行
     </el-row>
     </div>
 
-    ##############################################
+
      <!-- 新的Visual Corruption Section -->
    <el-divider />
     <el-row justify="center">
@@ -434,7 +434,7 @@ const selectedCase = ref('case1') // 只需要这一行
         </el-container>
       </el-col>
     </el-row>
-    ##############################################
+ 
     
     <!-- 新的 Streaming Inference -->
     <el-divider />
